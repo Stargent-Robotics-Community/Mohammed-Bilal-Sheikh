@@ -4,7 +4,7 @@ import pyttsx3
 import speech_recognition as sr
 bot = pyttsx3.init()
 recog = sr.Recognizer()
-recog.energy_threshold = 4000
+recog.energy_threshold = 400
 recog.dynamic_energy_threshold = True
 def listen():
     while True:
